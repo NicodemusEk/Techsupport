@@ -1,0 +1,120 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styles */
+  
+  .head {
+    background-color: #333;
+    
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .head .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .head .Login, .head .Ärende, .head .Techsuport {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .head .Login h1, .head .Ärende h1, .head .Techsuport h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Info Styles */
+  
+  .Info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .head {
+      padding: 0.5em;
+    }
+  
+    .head .logo img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .head .Login, .head .Ärende, .head .Techsuport {
+      display: block;
+      margin: 10px 0;
+    }
+
+  }
+      
+  a{
+    text-decoration: none;
+    color: #2278be;
+    }
+    a:hover{
+        color: #d83417;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+   
+}
+.Hela_tabell{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+  width: 30%;
+  margin-left: 35%;
+  background-color: #333;
+  color: #fff;
+
+}
+
+.handlinggrejer{
+
+  margin-bottom: 10px;
+  border:1px solid #fff7;
+}
+
+.Hela_tabell a{
+
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  background-color: rgb(15, 221, 53);
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
